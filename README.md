@@ -41,8 +41,9 @@ Day	Day of the month
 
 **Project Outputs**
 This GitHub repository contains all relevant materials for the course project:
-Shiny Web Application
-Ioslide Pitch Presentation on RPubs
-All supporting source files and documentation
+All supporting source files and documentation & the
+Shiny Web Application : https://sctan.shinyapps.io/Course_Project_Shiny_Application_and_Reproducible_Pitch/. 
+Ioslide Pitch Presentation on RPubs : http://rpubs.com/xavifu/265156
+
 
 
