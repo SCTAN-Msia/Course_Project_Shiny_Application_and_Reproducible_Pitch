@@ -23,7 +23,7 @@ Includes:
 Title and overview
 Description of app features
 Embedded R code that runs when rendered
-Presentation hosted at: http://rpubs.com/xavifu/265156
+Presentation hosted at: https://rpubs.com/SCTAN/1302407
 
 **Introduction to the Dataset**
 The airquality dataset is a classic dataset in R that contains daily air quality measurements collected in New York, USA, during the months of May to September in 1973. It is commonly used in exploratory data analysis and statistical modeling.
