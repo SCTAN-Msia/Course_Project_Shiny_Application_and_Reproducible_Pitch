@@ -1,0 +1,54 @@
+---
+title: "Course Project : Shiny Application and Reproducible Pitch"
+author: "Tan Siu Ching"
+date: "2025-04-25"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## R Markdown of the Air Quality Explorer
+This is an R Markdown presentation document is created as part of the TSC Course Project. The goal of this project is to develop a Shiny web application using the built-in airquality dataset, and to present its functionality through a reproducible pitch presentation. 
+
+The application enables users to explore key air quality metrics recorded in New York during the summer of 1973, providing interactive visualizations and summary statistics to support data-driven insights.
+
+## **Why This App?**
+
+- Leverages `airquality` dataset in base R
+- Designed for beginner-friendly interactive use
+- Focused on simplicity, minimal setup
+
+### **App Features**
+
+- Selectable variables (e.g., Ozone, Temp, Wind)
+- Interactive histogram with custom bin size
+- Real-time summary statistics
+
+## About the Data 
+```r
+summary(airquality$Ozone)
+hist(airquality$Ozone, breaks = 10)
+```
+```{r}
+summary(airquality$Ozone)
+hist(airquality$Ozone, breaks = 10)
+```
+
+## About This Project: Shiny Application & Pitch Presentation. Try It Out!
+
+Explore the complete Shiny application developed for this project by clicking the link below:
+
+[🔗 View Shiny App](https://sctan.shinyapps.io/Course_Project_Shiny_Application_and_Reproducible_Pitch/)
+
+https://sctan.shinyapps.io/Course_Project_Shiny_Application_and_Reproducible_Pitch/
+
+Access the full project files, including source code and documentation, on GitHub:
+
+[💻 View GitHub Repository](https://github.com/SCTAN-Msia/Course_Project_Shiny_Application_and_Reproducible_Pitch)
+
+https://github.com/SCTAN-Msia/Course_Project_Shiny_Application_and_Reproducible_Pitch
+
+Simple, insightful, and ready to explore!
+
